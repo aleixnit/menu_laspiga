@@ -53,6 +53,11 @@ p {
     font-size: 5rem;
     color: #ffffff;
 }
+
+.domicili {
+    font-size: 5rem;
+
+}
 /* ------------------------------ INTRO SECTION ----------------------------- */
 .intro_header {
     height: 100vh;
@@ -131,6 +136,16 @@ p {
     width:150px;
 }
 
+.horno {
+    width: auto;
+    height: 19.5vh;
+    overflow: hidden;
+    margin-left: 4rem;
+}
+
+
+
+/* -------------------- PORTAFOGLIOS, PANOZZOS Y CALZONES ------------------- */
 .porta_pano_cal {
     display: flex;
     justify-content: space-between;
@@ -167,3 +182,72 @@ p {
     justify-content: center;
     color: #1d1d1b;
 }
+
+/* --------------------------- MEDIA QUERYS MOBILE -------------------------- */
+@media only screen and (max-width : 900px) {
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .migha {
+        font-family: 'Migha-Regular';
+        font-size: 3.5rem;
+        color: #ffffff;
+    }
+
+    .intro_header img {
+        width: 100%;
+    }
+
+    .domicili {
+        font-size: 2.5rem;
+        padding: 4rem;
+    }
+
+    .pizzas {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    .porta_pano_cal {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        gap: 2.5rem;
+        padding: 4rem;
+    }
+
+    .portafoglio {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .otros_container {
+        display: flex;
+        flex-direction: column;
+        padding: 4rem;
+        gap: 5rem;
+    }
+
+    .bebidas {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        
+    }
+
+    .horno {
+        width: 60vw;
+        height: 50vh;
+        overflow: hidden;
+        margin-left: 0rem;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+
+
+    }
