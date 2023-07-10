@@ -217,6 +217,20 @@ p {
         /* align-items: center; */
     }
 
+    .nuestras_pizzas {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .nuestras_blancas {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
     .porta_pano_cal {
         display: flex;
         flex-direction: column;
