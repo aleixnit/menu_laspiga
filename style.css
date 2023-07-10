@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid blue; */
+}
+
+body {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+    color: #d74335;
+    border: 1px solid #d74335;
+    padding: 1rem;
+    text-transform: uppercase ;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+p {
+    font-weight: lighter;
+    color: #8c8c8c;
+}
+
+.producto {
+    color: #d74335;
+    font-weight: bold;
+}
+
+.precio {
+    font-weight: bold;
+    color: white;
+}
+/* ------------------------------ INTRO SECTION ----------------------------- */
+.intro_header {
+    height: 100vh;
+    background-color: #1d1d1b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro_header img {
+    width: 40%;
+}
+
+/* ------------------------------ SERVICIOS SECTION ------------------------------ */
+.servicios_container {
+    background-color: #d74335;
+    height: 25vh;
+}
+
+/* ------------------------------ MENÚ SECTION ------------------------------ */
+.menu_container {
+    background-color: #1d1d1b;
+    height: auto;
+}
+
+/* ----------------------------- NUESTRAS PIZZAS ---------------------------- */
+.pizzas {
+    display: flex;
+    /* align-items: center; */
+}
+
+.nuestras_pizzas {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.nuestras_blancas {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.nuestras_especiales {
+    /* display: flex; */
+   /* align-items:  center; */
+    /* width: 75%; */
+    background-color: #d74335;
+    padding: 2rem;
+    position: relative;
+    margin-top: 1rem;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+
+.circle {
+    position: absolute;
+    top: -20%;
+    right: 20px;
+    background-color: #1d1d1b;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle img {
+    width: 180px;
+}
