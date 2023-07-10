@@ -38,6 +38,10 @@ p {
     line-height: 1.5rem;
 }
 
+hr {
+   border-color: #e3c89e;
+}
+
 .producto {
     color: #d74335;
     font-weight: bold;
@@ -115,7 +119,7 @@ p {
     padding: 2rem;
     position: relative;
     margin-top: 2rem;
-    border: 1px solid white;
+    border: 1px solid #e3c89e;
     box-sizing: border-box;
 }
 
@@ -130,7 +134,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
+    border: 1px solid #e3c89e;
 }
 
 .circle img {
