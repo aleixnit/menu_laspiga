@@ -32,6 +32,11 @@ h3 {
     color: #e3c89e;
     /* font-family: 'Migha-Regular'; */
 }
+
+.pizzas_especiales {
+    font-size: 1.3rem!important;
+}
+
 p {
     font-weight: lighter;
     color: #b6b6b6;
