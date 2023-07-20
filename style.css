@@ -3,6 +3,15 @@
     src: url('./assets/fonts/Migha-Regular.otf') format('opentype');
   }
 
+  :root {
+    --color-primary: #faf2e3;    /* Color primario */
+    --color-secondary: #b28f7b;  /* Color secundario */
+    --color-accent: #da422d;     /* Color de acento */
+    --color-background: #f8f9fa; /* Color de fondo */
+    --color-text: #1d1d1b;       /* Color de texto principal */
+    --color-link: #1d1d1b;       /* Color de enlaces */
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -20,8 +29,8 @@ i {
 }
 
 h2 {
-    color: #d74335;
-    border: 1px solid #d74335;
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
     padding: 1rem;
     text-transform: uppercase ;
     font-size: 1.5rem;
@@ -31,7 +40,7 @@ h3 {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
     font-weight: 100;
-    color: #e3c89e;
+    color: var(--color-secondary);
     /* font-family: 'Migha-Regular'; */
 }
 
@@ -45,7 +54,7 @@ h3 {
 
 p {
     font-weight: lighter;
-    color: #b6b6b6;
+    color: var(--color-text);
     line-height: 1.5rem;
 }
 
@@ -54,20 +63,20 @@ hr {
 }
 
 .producto {
-    color: #d74335;
+    color: var(--color-text);
     font-weight: bold;
     text-transform: uppercase;
 }
 
 .precio {
     font-weight: bold;
-    color: white;
+    color: var(--color-accent);
 }
 
 .migha {
     font-family: 'Migha-Regular';
     font-size: 5rem;
-    color: #ffffff;
+    color: var(--color-accent);
 }
 
 .domicili {
@@ -77,7 +86,7 @@ hr {
 /* ------------------------------ INTRO SECTION ----------------------------- */
 .intro_header {
     height: 100vh;
-    background-color: #1d1d1b;
+    background-color: var(--color-text);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,7 +98,7 @@ hr {
 
 /* ------------------------------ SERVICIOS SECTION ------------------------------ */
 .servicios_container {
-    background-color: #d74335;
+    background-color: var(--color-secondary);
     height: 20vh;
     display: flex;
     align-items: center;
@@ -98,7 +107,7 @@ hr {
 
 /* ------------------------------ MENÚ SECTION ------------------------------ */
 .menu_container {
-    background-color: #1d1d1b;
+    background-color: var(--color-primary);
     height: auto;
 }
 
@@ -126,7 +135,7 @@ hr {
     /* display: flex; */
    /* align-items:  center; */
     /* width: 75%; */
-    background-color: #d74335;
+    background-color: var(--color-secondary);
     padding: 2rem;
     position: relative;
     margin-top: 2rem;
@@ -138,14 +147,14 @@ hr {
     position: absolute;
     top: -15%;
     right: 20px;
-    background-color: #1d1d1b;
+    background-color: var(--color-secondary);
     width: 6rem;
     height: 6rem;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #e3c89e;
+    /* border: 1px solid #e3c89e; */
 }
 
 .circle img {
@@ -192,7 +201,7 @@ hr {
 /* --------------------------------- FOOTER --------------------------------- */
 
 .footer {
-    background-color:#d74335;
+    background-color:var(--color-secondary);
     padding: 4rem;
     display: flex;
     justify-content: center;
@@ -225,7 +234,7 @@ i {
     font-family: 'Migha-Regular';
 }
 .navbar-mainbg{
-	background-color:#d74335;
+	background-color:var(--color-secondary);
 	padding: 0px;
 }
 #navbarSupportedContent{
@@ -309,7 +318,7 @@ i {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color:#d74335;
+    background-color:var(--color-secondary);
 }
 .hori-selector .right:before{
 	bottom: 0;
@@ -396,7 +405,7 @@ i {
     .migha {
         font-family: 'Migha-Regular';
         font-size: 3.5rem;
-        color: #ffffff;
+        color: var(--color-text);
     }
 
     .intro_header img {
