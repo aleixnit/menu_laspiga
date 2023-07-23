@@ -68,6 +68,11 @@ hr {
     text-transform: uppercase;
 }
 
+.left-price {
+    display: flex;
+    justify-content: space-between;
+}
+
 .precio {
     font-weight: bold;
     color: var(--color-accent);
@@ -201,12 +206,17 @@ hr {
 /* --------------------------------- FOOTER --------------------------------- */
 
 .footer {
-    background-color:var(--color-secondary);
+    background-color:var(--color-text);
     padding: 4rem;
     display: flex;
     justify-content: center;
     gap: 2rem;
     color: #ffffff;
+}
+
+.instagram-logo {
+    /* background-color: #d6249f; */
+  /* background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); */
 }
 
 /* --------------------------------- NAVBAR --------------------------------- */
@@ -231,7 +241,7 @@ i {
 .navbar-logo{
 	padding: 15px;
 	color: #fff;
-    font-family: 'Migha-Regular';
+    /* font-family: 'Migha-Regular'; */
 }
 .navbar-mainbg{
 	background-color:var(--color-secondary);
