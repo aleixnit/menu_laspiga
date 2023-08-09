@@ -50,6 +50,7 @@ h3 {
 
 .pizzas_especiales {
     font-size: 3rem!important;
+    color: white!important;
 }
 
 p {
@@ -140,7 +141,7 @@ hr {
     /* display: flex; */
    /* align-items:  center; */
     /* width: 75%; */
-    background-color: var(--color-secondary);
+    background-color: var(--color-text);
     padding: 2rem;
     position: relative;
     margin-top: 2rem;
@@ -148,11 +149,15 @@ hr {
     box-sizing: border-box;
 }
 
+.nuestras_especiales h3 {
+    color: white;
+}
+
 .circle {
     position: absolute;
     top: -15%;
     right: 20px;
-    background-color: var(--color-secondary);
+    background-color: var(--color-text);
     width: 6rem;
     height: 6rem;
     border-radius: 50%;
@@ -206,7 +211,7 @@ hr {
 /* --------------------------------- FOOTER --------------------------------- */
 
 .footer {
-    background-color:var(--color-text);
+    background-color:var(--color-primary);
     padding: 4rem;
     display: flex;
     justify-content: center;
@@ -244,7 +249,7 @@ i {
     /* font-family: 'Migha-Regular'; */
 }
 .navbar-mainbg{
-	background-color:var(--color-secondary);
+	background-color:var(--color-text);
 	padding: 0px;
 }
 #navbarSupportedContent{
