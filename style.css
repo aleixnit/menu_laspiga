@@ -1,241 +1,246 @@
 @font-face {
-    font-family: 'Migha-Regular';
-    src: url('./assets/fonts/Migha-Regular.otf') format('opentype');
-  }
+  font-family: "Migha-Regular";
+  src: url("./assets/fonts/Migha-Regular.otf") format("opentype");
+}
 
-  :root {
-    --color-primary: #faf2e3;    /* Color primario */
-    --color-secondary: #b28f7b;  /* Color secundario */
-    --color-accent: #da422d;     /* Color de acento */
-    --color-background: #f8f9fa; /* Color de fondo */
-    --color-text: #1d1d1b;       /* Color de texto principal */
-    --color-link: #1d1d1b;       /* Color de enlaces */
+:root {
+  --color-primary: #faf2e3; /* Color primario */
+  --color-secondary: #b28f7b; /* Color secundario */
+  --color-accent: #da422d; /* Color de acento */
+  --color-background: #f8f9fa; /* Color de fondo */
+  --color-text: #1d1d1b; /* Color de texto principal */
+  --color-link: #1d1d1b; /* Color de enlaces */
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    /* border: 1px solid blue; */
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid blue; */
 }
 
 body {
-    color: white;
-    font-family:Arial, Helvetica, sans-serif;
-    background-color: #272727;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #272727;
 }
 
 i {
-    margin-right: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 h2 {
-    color: var(--color-primary);
-    border: 1px solid var(--color-primary);
-    padding: 1rem;
-    text-transform: uppercase ;
-    font-size: 1.5rem;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  padding: 1rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
 }
 
 h3 {
-    font-size: 1rem;
-    margin-bottom: 1.5rem;
-    font-weight: 100;
-    color: var(--color-text);
-    /* font-family: 'Migha-Regular'; */
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  font-weight: 100;
+  color: var(--color-text);
+  /* font-family: 'Migha-Regular'; */
 }
 
 .navbar {
-    padding: 0rem!important;
+  padding: 0rem !important;
 }
 
 .pizzas_especiales {
-    font-size: 3rem!important;
-    color: white!important;
+  font-size: 3rem !important;
+  color: white !important;
 }
 
 p {
-    font-weight: lighter;
-    color: var(--color-text);
-    line-height: 1.5rem;
+  font-weight: lighter;
+  color: var(--color-text);
+  line-height: 1.5rem;
 }
 
 hr {
-   border-color: #000000;
+  border-color: #000000;
 }
 
 .producto {
-    color: var(--color-text);
-    font-weight: bold;
-    text-transform: uppercase;
+  color: var(--color-text);
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .left-price {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .precio {
-    font-weight: bold;
-    color: var(--color-accent);
+  font-weight: bold;
+  color: var(--color-accent);
 }
 
 .migha {
-    font-family: 'Migha-Regular';
-    font-size: 5rem;
-    color: var(--color-accent);
+  font-family: "Migha-Regular";
+  font-size: 5rem;
+  color: var(--color-accent);
 }
 
 .domicili {
-    font-size: 5rem;
-
+  font-size: 5rem;
 }
 /* ------------------------------ INTRO SECTION ----------------------------- */
 .intro_header {
-    height: 100vh;
-    background-color: var(--color-text);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  height: 100vh;
+  background-color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .intro_header img {
-    width: 40%;
+  width: 40%;
 }
 
 /* ------------------------------ SERVICIOS SECTION ------------------------------ */
 .servicios_container {
-    background-color: var(--color-secondary);
-    height: 20vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: var(--color-secondary);
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ------------------------------ MENÚ SECTION ------------------------------ */
 .menu_container {
-    background-color: var(--color-primary);
-    height: auto;
+  background-color: var(--color-primary);
+  height: auto;
 }
 
 /* ----------------------------- NUESTRAS PIZZAS ---------------------------- */
 .pizzas {
-    display: flex;
-    /* align-items: center; */
+  display: flex;
+  /* align-items: center; */
 }
 
 .nuestras_pizzas {
-    padding: 4rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .nuestras_blancas {
-    padding: 4rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .nuestras_especiales {
-    /* display: flex; */
-   /* align-items:  center; */
-    /* width: 75%; */
-    background-color: var(--color-text);
-    padding: 2rem;
-    position: relative;
-    margin-top: 2rem;
-    border: 1px solid #e3c89e;
-    box-sizing: border-box;
+  /* display: flex; */
+  /* align-items:  center; */
+  /* width: 75%; */
+  background-color: var(--color-text);
+  padding: 2rem;
+  position: relative;
+  margin-top: 2rem;
+  border: 1px solid #e3c89e;
+  box-sizing: border-box;
 }
 
 .nuestras_especiales h3 {
-    color: white;
+  color: white;
 }
 
 .circle {
-    position: absolute;
-    top: -15%;
-    right: 20px;
-    background-color: var(--color-text);
-    width: 6rem;
-    height: 6rem;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border: 1px solid #e3c89e; */
+  position: absolute;
+  top: -15%;
+  right: 20px;
+  background-color: var(--color-text);
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid #e3c89e; */
 }
 
 .circle img {
-    width:150px;
+  width: 150px;
 }
 
 .horno {
-    width: auto;
-    height: 19.5vh;
-    overflow: hidden;
-    margin-left: 4rem;
+  width: auto;
+  height: 19.5vh;
+  overflow: hidden;
+  margin-left: 4rem;
 }
-
-
 
 /* -------------------- PORTAFOGLIOS, PANOZZOS Y CALZONES ------------------- */
 .porta_pano_cal {
-    display: flex;
-    justify-content: space-between;
-    gap: 2.5rem;
-    padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 2.5rem;
+  padding: 4rem;
 }
 
 .portafoglio {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 /* ------------------------- BAMBINI POSTRES BEBIDAS ------------------------ */
 .otros_container {
-    display: flex;
-    padding: 6rem;
-    gap: 5rem;
+  display: flex;
+  padding: 6rem;
+  gap: 5rem;
 }
 
 .bebidas {
-    display: flex;
-    gap: 1rem;
-    
+  display: flex;
+  gap: 1rem;
 }
 
 /* --------------------------------- FOOTER --------------------------------- */
 
-.footer {
-    background-color:var(--color-primary);
-    padding: 4rem;
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    color: #ffffff;
+.footer_container {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  color: #ffffff;
 }
 
-.instagram-logo {
-    /* background-color: #d6249f; */
-  /* background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); */
+.footer p {
+    margin-bottom: 0px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+font-size: 0.8rem;
+color: #4e4e4e;
+
+}
+
+.footer {
+  background-color: var(--color-primary);
 }
 
 /* --------------------------------- NAVBAR --------------------------------- */
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 
-body{
-	font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 i {
-	margin-right: 10px;
+  margin-right: 10px;
 }
 /*----------bootstrap-navbar-css------------*/
 
@@ -243,253 +248,246 @@ i {
     color: #1d1d1b!important;
 } */
 
-.navbar-logo{
-	padding: 15px;
-	color: #fff;
-    /* font-family: 'Migha-Regular'; */
+.navbar-logo {
+  padding: 15px;
+  color: #fff;
+  /* font-family: 'Migha-Regular'; */
 }
-.navbar-mainbg{
-	background-color:var(--color-text);
-	padding: 0px;
+.navbar-mainbg {
+  background-color: var(--color-text);
+  padding: 0px;
 }
-#navbarSupportedContent{
-	overflow: hidden;
-	position: relative;
+#navbarSupportedContent {
+  overflow: hidden;
+  position: relative;
 }
-#navbarSupportedContent ul{
-	padding: 0px;
-	margin: 0px;
+#navbarSupportedContent ul {
+  padding: 0px;
+  margin: 0px;
 }
-#navbarSupportedContent ul li a i{
-	margin-right: 10px;
+#navbarSupportedContent ul li a i {
+  margin-right: 10px;
 }
 #navbarSupportedContent li {
-	list-style-type: none;
-	float: left;
+  list-style-type: none;
+  float: left;
 }
-#navbarSupportedContent ul li a{
-	color: rgba(255,255,255,0.5);
-    text-decoration: none;
-    font-size: 15px;
-    display: block;
-    padding: 20px 20px;
-    transition-duration:0.6s;
-	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    position: relative;
-    /* font-family: 'Migha-Regular'; */
+#navbarSupportedContent ul li a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+  padding: 20px 20px;
+  transition-duration: 0.6s;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  position: relative;
+  /* font-family: 'Migha-Regular'; */
 }
-#navbarSupportedContent>ul>li.active>a{
-	color:#272727;
-	background-color: transparent;
-	transition: all 0.7s;
+#navbarSupportedContent > ul > li.active > a {
+  color: #272727;
+  background-color: transparent;
+  transition: all 0.7s;
 }
 #navbarSupportedContent a:not(:only-child):after {
-	content: "\f105";
-	position: absolute;
-	right: 20px;
-	top: 10px;
-	font-size: 14px;
-	font-family: "Font Awesome 5 Free";
-	display: inline-block;
-	padding-right: 3px;
-	vertical-align: middle;
-	font-weight: 900;
-	transition: 0.5s;
+  content: "\f105";
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-size: 14px;
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+  transition: 0.5s;
 }
-#navbarSupportedContent .active>a:not(:only-child):after {
-	transform: rotate(90deg);
+#navbarSupportedContent .active > a:not(:only-child):after {
+  transform: rotate(90deg);
 }
-.hori-selector{
-	display:inline-block;
-	position:absolute;
-	height: 100%;
-	top: 0px;
-	left: 0px;
-	transition-duration:0.6s;
-	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-	background-color: var(--color-primary);
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
-	margin-top: 10px;
+.hori-selector {
+  display: inline-block;
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  transition-duration: 0.6s;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  background-color: var(--color-primary);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-top: 10px;
 }
 .hori-selector .right,
-.hori-selector .left{
-	position: absolute;
-	width: 25px;
-	height: 25px;
-	background-color: var(--color-text);
-	bottom: 10px;
+.hori-selector .left {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: var(--color-text);
+  bottom: 10px;
 }
-.hori-selector .right{
-	right: -25px;
+.hori-selector .right {
+  right: -25px;
 }
-.hori-selector .left{
-	left: -25px;
+.hori-selector .left {
+  left: -25px;
 }
 .hori-selector .right:before,
-.hori-selector .left:before{
-	content: '';
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color:var(--color-text);
+.hori-selector .left:before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--color-text);
 }
-.hori-selector .right:before{
-	bottom: 0;
-    right: -25px;
+.hori-selector .right:before {
+  bottom: 0;
+  right: -25px;
 }
-.hori-selector .left:before{
-	bottom: 0;
+.hori-selector .left:before {
+  bottom: 0;
+  left: -25px;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-custom {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .navbar-expand-custom .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .navbar-expand-custom .navbar-toggler {
+    display: none;
+  }
+  .navbar-expand-custom .navbar-collapse {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  #navbarSupportedContent ul li a {
+    padding: 12px 30px;
+  }
+  .hori-selector {
+    margin-top: 0px;
+    margin-left: 10px;
+    border-radius: 0;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+  .hori-selector .left,
+  .hori-selector .right {
+    right: 10px;
+  }
+  .hori-selector .left {
+    top: -25px;
+    left: auto;
+  }
+  .hori-selector .right {
+    bottom: -25px;
+  }
+  .hori-selector .left:before {
     left: -25px;
+    top: -25px;
+  }
+  .hori-selector .right:before {
+    bottom: -25px;
+    left: -25px;
+  }
 }
-
-
-@media(min-width: 992px){
-	.navbar-expand-custom {
-	    -ms-flex-flow: row nowrap;
-	    flex-flow: row nowrap;
-	    -ms-flex-pack: start;
-	    justify-content: flex-start;
-	}
-	.navbar-expand-custom .navbar-nav {
-	    -ms-flex-direction: row;
-	    flex-direction: row;
-	}
-	.navbar-expand-custom .navbar-toggler {
-	    display: none;
-	}
-	.navbar-expand-custom .navbar-collapse {
-	    display: -ms-flexbox!important;
-	    display: flex!important;
-	    -ms-flex-preferred-size: auto;
-	    flex-basis: auto;
-	}
-}
-
-
-@media (max-width: 991px){
-	#navbarSupportedContent ul li a{
-		padding: 12px 30px;
-	}
-	.hori-selector{
-		margin-top: 0px;
-		margin-left: 10px;
-		border-radius: 0;
-		border-top-left-radius: 25px;
-		border-bottom-left-radius: 25px;
-	}
-	.hori-selector .left,
-	.hori-selector .right{
-		right: 10px;
-	}
-	.hori-selector .left{
-		top: -25px;
-		left: auto;
-	}
-	.hori-selector .right{
-		bottom: -25px;
-	}
-	.hori-selector .left:before{
-		left: -25px;
-		top: -25px;
-	}
-	.hori-selector .right:before{
-		bottom: -25px;
-		left: -25px;
-	}
-}
-
 
 /* --------------------------- MEDIA QUERYS MOBILE -------------------------- */
-@media only screen and (max-width : 900px) {
+@media only screen and (max-width: 900px) {
+  h3 {
+    font-size: 1.1rem !important;
+  }
 
-    h3 {
-        font-size: 1.1rem!important;
-    }
+  h2 {
+    font-size: 1rem !important;
+    text-align: center;
+  }
 
-    h2 {
-        font-size: 1rem!important;
-        text-align: center;
-    }
+  p {
+    font-size: 1.1rem;
+  }
 
-    p {
-        font-size: 1.1rem;
-    }
+  .migha {
+    font-family: "Migha-Regular";
+    font-size: 3.5rem;
+    color: var(--color-text);
+  }
 
-    .migha {
-        font-family: 'Migha-Regular';
-        font-size: 3.5rem;
-        color: var(--color-text);
-    }
+  .intro_header img {
+    width: 100%;
+  }
 
-    .intro_header img {
-        width: 100%;
-    }
+  .domicili {
+    font-size: 2rem;
+    padding: 3rem;
+    text-align: center;
+  }
 
-    .domicili {
-        font-size: 2rem;
-        padding: 3rem;
-        text-align: center;
-    }
+  .pizzas {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
 
-    .pizzas {
-        display: flex;
-        flex-direction: column;
-        /* align-items: center; */
-    }
+  .nuestras_pizzas {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
 
-    .nuestras_pizzas {
-        padding: 2rem;
-        display: flex;
-        flex-direction: column;
-        gap: 1.5rem;
-    }
-    
-    .nuestras_blancas {
-        padding: 2rem;
-        display: flex;
-        flex-direction: column;
-        gap: 1.5rem;
-    }
+  .nuestras_blancas {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
 
-    .porta_pano_cal {
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        gap: 2.5rem;
-        padding: 2.5rem;
-    }
+  .porta_pano_cal {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 2.5rem;
+    padding: 2.5rem;
+  }
 
-    .portafoglio {
-        width: auto;
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-    }
+  .portafoglio {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
 
-    .otros_container {
-        display: flex;
-        flex-direction: column;
-        padding: 2.5rem;
-        gap: 5rem;
-    }
+  .otros_container {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    gap: 5rem;
+  }
 
-    .bebidas {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        
-    }
+  .bebidas {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
 
-    .horno {
-        width: 80vw;
-        height: 50vh;
-        overflow: hidden;
-        margin-left: 0rem;
-        border-radius: 50%;
-        margin: 0 auto;
-    }
-
-
-    }
+  .horno {
+    width: 80vw;
+    height: 50vh;
+    overflow: hidden;
+    margin-left: 0rem;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+}
