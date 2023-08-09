@@ -220,7 +220,7 @@ hr {
   padding-right: 2rem;
   padding-bottom: 2rem;
   text-align: center;
-font-size: 0.8rem;
+font-size: 0.7rem;
 color: #4e4e4e;
 
 }
@@ -380,7 +380,7 @@ i {
     margin-left: 10px;
     border-radius: 0;
     border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+    border-bottom-left-radius: 0px;
   }
   .hori-selector .left,
   .hori-selector .right {
