@@ -5,6 +5,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       document.querySelector(this.getAttribute('href')).scrollIntoView({
         behavior: 'smooth'
       });
+	  $(".navbar-collapse").slideToggle(300);
+
     });
   });
 
@@ -37,6 +39,7 @@ function test(){
 			"height": activeWidthNewAnimHeight + "px",
 			"width": activeWidthNewAnimWidth + "px"
 		});
+
 	});
 }
 $(document).ready(function(){
